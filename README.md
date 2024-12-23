@@ -1,16 +1,27 @@
-# Java Spring Starter template
-Template này được sử dụng cho series Java Spring Restful (dự án jobHunter) của tác giả Hỏi Dân IT (Eric)
+# Dự Án JobHunter
 
-## Về tác giả
-Mọi thông tin về Tác giả Hỏi Dân IT, các bạn có thể tìm kiếm tại đây:
+JobHunter là nền tảng tìm kiếm việc làm, giúp người dùng tìm việc và ứng tuyển trực tuyến. Backend sử dụng Spring Boot, frontend sử dụng React.js.
 
-Website chính thức: https://hoidanit.vn/
+## Các Tính Năng Chính
 
-Youtube “Hỏi Dân IT” : https://www.youtube.com/@hoidanit
+### Người Dùng Chưa Đăng Nhập:
+- Đăng ký/Đăng nhập.
+- Xem danh sách công ty và công việc.
+- Tìm kiếm công việc theo kỹ năng và vị trí.
 
-Tiktok “Hỏi Dân IT” :  https://www.tiktok.com/@hoidanit
+### Người Dùng Đã Đăng Nhập:
+- Rải CV và xem lịch sử rải CV.
+- Đăng ký nhận email theo kỹ năng.
 
-Fanpage “Hỏi Dân IT” : https://www.facebook.com/askITwithERIC/
+### Phân Quyền:
+- **Admin**: Quản lý người dùng, công ty, công việc.
+- **Người Dùng Thường**: Quyền hạn hạn chế, không phân quyền đặc biệt.
 
-Udemy Hỏi Dân IT: https://www.udemy.com/user/eric-7039/
+## Phân Quyền Người Dùng
+- **Backend**: Phân quyền qua **Interceptor** và các API.
+- **Frontend**: Kiểm tra quyền truy cập dựa trên trạng thái đăng nhập và quyền của người dùng.
+
+## Frontend Dự Án
+
+ Frontend được phát triển bằng **React.js** và không phải do tôi làm. Bạn có thể tham khảo mã nguồn tại [Jobhunter-reactJs](https://github.com/tugithubbb/Jobhunter-reactJs). -->
 
